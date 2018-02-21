@@ -1,0 +1,23 @@
+﻿Сборка начата 21.02.2018 16:17:34.
+     1>Проект "C:\Users\1\Documents\Visual Studio 2013\Projects\OpenGL\OpenGL\OpenGL.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\1\Documents\Visual Studio 2013\Projects\OpenGL\Dependencies\GLFW\include" /I"C:\Users\1\Documents\Visual Studio 2013\Projects\OpenGL\Dependencies\GLEW\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D GLEW_STATIC /D _MBCS /Gm /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\Application.cpp
+         Application.cpp
+     1>c:\users\1\documents\visual studio 2013\projects\opengl\opengl\src\application.cpp(72): warning C4305: аргумент: усечение из "double" к "float"
+     1>c:\users\1\documents\visual studio 2013\projects\opengl\opengl\src\application.cpp(99): warning C4305: аргумент: усечение из "double" к "float"
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\1\Documents\Visual Studio 2013\Projects\OpenGL\Debug\OpenGL.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\1\Documents\Visual Studio 2013\Projects\OpenGL\Dependencies\GLFW\lib-vc2013" /LIBPATH:"C:\Users\1\Documents\Visual Studio 2013\Projects\OpenGL\Dependencies\GLEW\lib\Release\Win32" glew32s.lib glfw3.lib opengl32.lib User32.lib Gdi32.lib Shell32.lib /NODEFAULTLIB:libcmt.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\1\Documents\Visual Studio 2013\Projects\OpenGL\Debug\OpenGL.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\1\Documents\Visual Studio 2013\Projects\OpenGL\Debug\OpenGL.lib" /MACHINE:X86 Debug\Application.obj
+         Debug\IndexBuffer.obj
+         Debug\mylib.obj
+         Debug\Renderer.obj
+         Debug\Shader.obj
+         Debug\Texture.obj
+         Debug\stb_image.obj
+         Debug\VertexArray.obj
+         Debug\VertexBuffer.obj
+         OpenGL.vcxproj -> C:\Users\1\Documents\Visual Studio 2013\Projects\OpenGL\Debug\OpenGL.exe
+     1>Сборка проекта "C:\Users\1\Documents\Visual Studio 2013\Projects\OpenGL\OpenGL\OpenGL.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:06.18
